@@ -1,0 +1,13 @@
+add_newline = false
+
+format = """[ ](bold yellow) $directory"""
+
+[character]
+disabled = true
+
+[git_status]
+disabled = true
+
+[directory]
+style = "#8ABD91"
+truncation_length = 8
