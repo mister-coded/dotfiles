@@ -43,12 +43,12 @@ local hooks = require "core.hooks"
 
 -- require "custom.plugins.mkdir"
 
-function OpenUrl() 
+function OpenUrl()
   local url = vim.fn.input("Open URL: ")
   vim.cmd('silent !librewolf ' .. url)
 end
 
-function Search() 
+function Search()
   local sterm = vim.fn.input("Search term: ")
   vim.cmd('silent !librewolf -search "' .. sterm .. '"')
 end

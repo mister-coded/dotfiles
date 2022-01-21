@@ -295,10 +295,12 @@ return packer.startup(function()
          require("core.mappings").truezen()
       end,
    }
-  
+
    use { 'kqito/vim-easy-replace' }
 
    use 'b3nj5m1n/kommentary'
+
+   use 'andweeb/presence.nvim'
 
    require("core.hooks").run("install_plugins", use)
    end)
